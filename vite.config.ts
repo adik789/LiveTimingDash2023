@@ -6,3 +6,4 @@ import express from './express-plugin'
 export default defineConfig({
   plugins: [react(), express('src/server')],
 })
+
